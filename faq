@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+<style>
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+</Style>
+</head>
+
+<body>
+    <main>
+
+        <h1 class="faq-heading"></h1>
+        <section class="faq-container">
+            <div class="faq-one">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Jaký je rozdíl mezi dárkovou kartou a dárkovým poukazem?
+</h1>
+
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>Žádný. Jde jen o volbu názvu poskytovatele dárkových poukazů/karet. My používáme ten název, který používá poskytovatel buď tedy karta nebo poukaz, rozdíl v nich však není. Digitální dárkový poukaz/karta je typ poukazu, který se zakoupí online a může být uplatněn později.  Po objednání Vám bude přiřazeno a zasláno jedinečné číslo dárkového kódu, které můžete použít k uplatnění u online prodejců při nákupech. Může být zakoupen jako dárek pro někoho jiného nebo jako osobní nákup.
+</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+            <div class="faq-two">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Co je kreditem a členství?
+</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>Kredit je množství peněz, které si nabijete pomocí dárkového poukazu na účtu prodejce. Tento kredit je určen ke směně za produkty, které prodejce nabízí. Například GIFTO kredit lze směnit za libovolný produkt z naší nabídky dárkových karet. Kredit má většinou velmi dlouhou dobu platnosti (někdy neomezenou platnosti – tu uvádíme na produktových kartách).<br><br>Členství má vždy časově omezenou nabídku a platnost (většinou 1,3,6,12 měsíců).Členství je placená služba, kterou získáváte určité výhody oproti běžným uživatelům.<br><br>Kredit i Členství vyžadují registraci uživatelů přes emailovou adresu a volbu hesla, pod kterými se následně uživatelé přihlašují ke svému účtu a mohou spravovat kredity i členství.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+
+            <div class="faq-three">
+
+                <!-- faq question -->
+                <h1 class="faq-page">V čem je výhoda digitálních dárkových karet?
+</h1>
+
+                <!-- faq answer -->
+                <div class="faq-body">
+                  <ul>
+				  <li>Rychlost: kód dárkové karty doručíme ihned po zaplacení mailem </li>
+  <li>Pohodlí: nemusíte nikam cestovat, vše nakoupíte online  </li>
+  <li>Bezpečnost: jste jediní, kdo vidí kód Vaší dárkové karty – celý proces doručení kódu se děje v reálném čase online tak, že si náš system stahne kód od dodavatele/prodejce hned po vašem zaplacení. Nikdo na trase mezi Vámi a dodavatelem kódu nemá možnost kód vidět. </li>
+  <li>Univerzálnost: s GIFTO kartou si nemusíte lámat hlavu s tím, jaký konkrétní produkt koupit – obdarovaný si vybere z naší stále se rošiřiující nabídky sám</li>
+  <li>Zábava: darování v rámci GIFTO si opravdu užijete: 
+  <ul><li>Nahrávání audio/video/text vkazů</li> 
+  <li>Výběr vlastního designu</li>  
+  <li>Naplánování odeslání </ul></li></li></ul> 
+                </div>
+            </div>
+
+        <hr class="hr-line">
+
+            <div class="faq-four">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Na co si dát největší pozor při koupi digitální dárkové karty?
+
+</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <ul>
+					<li>U koho nakupujete: My máme uzavřená oficiální partnerství s globálními distributory dárkových karet (integrátory) a oficiální souhlasy všech vydavatelů dárkových karet s jejich přeprodáváním.</li>
+<li>Správně provedená registrace: Verifikace emailu, na který budeme zasílat kódy, aby váš kód nikdo neviděl a neměl možnost jej ofotit nebo zkopírovat.</li>
+<li>Správně zadaná emailová adresa/mobilní telefonní číslo obdarovaného: Aby nešlo kód odeslat někomu jinému. Žádné digitální dárkové karty nelze vrátit, ani ve 14 denní lhůtě. Jedná se o okamžité zpřístupnění digitálního obsahu, což znamená ztrátu práva na odstoupení.</li></ul>
+
+<p>Je to bezpečné?<br><br>Ano, celý proces doručení kódu je zcela bezpečný. V západní Evropě a severní Americe se tento způsob obchodování praktikuje již řadu let. Distributoři se kterými spolupracujeme jsou obří fintech společnosti, pro které je bezpečnost prioritou.My jsme se rozhodli posílit Vaší bezpečnost tím, že je naší platební metodou pouze okamžitý převod z vašeho účtu. Nemusíte se tedy obávat, že u nás bude někdo platit Vaší ztracenou nebo ukradenou kreditní/debetní kartou.
+</p>
+                </div>
+            </div>
+			
+			        <hr class="hr-line">
+
+            <div class="faq-five">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Dá se kód  dárkové karty darovat?
+
+</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>Ano samozřejmě, darování je smyslem našeho snažení. Věříme, že se nám podaří přispět  k pozitivní náladě ve společnosti.  
+Darování s GIFTO je především zábava:</p>
+<ul>
+<li>Nahrávání audio/video/text vkazů 
+</li>
+<li>Výběr vlastního designu  
+</li>
+<li>Naplánování odeslání 
+</li>
+</ul>
+                </div>
+            </div>
+			
+			        <hr class="hr-line">
+
+            <div class="faq-six">
+
+                <!-- faq question -->
+                <h1 class="faq-page">V jakých zemích mohu kódy uplatnit?
+
+</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>V rámci produktových karet uvádíme informaci o platnosti karty a zemi, ve které můžete kód uplatnit. Země uplatnění je vždy označena vlajkou. Ve většině případů lze uplatnit v českých obchodech a v některých případech i v EU včetně České republiky. Čtěte prosím pozorně informace na produktové kartě a na odkaze [http://www.gifto.cz/uplatnění dárkové karty](http://www.gifto.cz/uplatnění dárkové karty).</p>
+				
+                </div>
+            </div>
+			
+			        <hr class="hr-line">
+
+            <div class="faq-seven">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Zaplatil jsem a kód mi emailem nepřišel. Co dělat?
+
+</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                
+					<ul>
+<li>Zkontrolujte prosím složku nevyžádané pošty nebo spamu  
+</li>
+<li>Zkontrolujte, zda opravdu odešla platba na svém internetovém bankovnictví  
+</li>
+<li>Kontaktujte nás na info@gifto.cz
+</li>
+</ul>
+                </div>
+            </div>
+			
+			
+			      <hr class="hr-line">
+
+            <div class="faq-eight">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Co když kód nefunguje a nejde uplatnit?  
+
+
+</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                
+					<ul>
+<li>Snažte se, aby Váš kód vidělo co nejméně lidí  
+
+</li>
+<li>Zkontrolujte, zda jste kód zadali opravdu správně (velká/malá písmenka, čísla, znaky)  
+
+</li>
+<li>Kontaktujte podporu vydavatele kódu  
+
+</li>
+</ul>
+                </div>
+            </div>
+			
+			
+			      <hr class="hr-line">
+
+            <div class="faq-nine">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Zaplatil jsem a kód mi emailem nepřišel. Co dělat?
+
+</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+               <p>Žádné digitální dárkové karty nelze vrátit ve 14ti denní lhůtě. Jedná se o okamžité zpřístupnění digitálního obsahu, což znamená ztrátu práva na odstoupení. Podrobné informace: § 1820 odst. 1 písm. f), § 1837 písm. l) zákona č. 89/2012 Sb., občanský zákoník. Děkujeme za pochopení. </p>
+                </div>
+            </div>
+			
+			
+			      <hr class="hr-line">
+
+            <div class="faq-ten">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Vidí někdo můj kód než jej obdržím? 
+
+
+</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+              <p>Nikdo na trase mezi Vámi a dodavatelem kódu nemá možnost kód vidět. Komu kód dárkové karty věnujete nebo ukážete už záleží čistě na Vás. 
+</p>
+                </div>
+            </div>
+			
+			      <hr class="hr-line">
+
+            <div class="faq-seven">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Jakou platnost má můj GIFTO kredit? 
+
+
+</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                
+					<p>V rámci produktových karet uvádíme informaci o platnosti karty a zemi, ve které můžete kód uplatnit. Platnost se vždy počítá ode dne doručení kódu dárkové karty do Vašeho emailu.
+</p>
+                </div>
+            </div>
+			
+        </section>
+    </main>
+    <script>
+	var faq = document.getElementsByClassName("faq-page");
+var i;
+
+for (i = 0; i < faq.length; i++) {
+    faq[i].addEventListener("click", function () {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var body = this.nextElementSibling;
+        if (body.style.display === "block") {
+            body.style.display = "none";
+        } else {
+            body.style.display = "block";
+        }
+    });
+}
+</script>
+</body>
+
+
+</html>
